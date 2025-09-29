@@ -1,0 +1,8 @@
+﻿  Source.cpp
+Source.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::Mat(void)" (??0Mat@cv@@QAE@XZ) referenced in function "public: __thiscall cv::MatExpr::operator class cv::Mat(void)const " (??BMatExpr@cv@@QBE?AVMat@1@XZ)
+Source.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) referenced in function "public: __thiscall cv::MatExpr::~MatExpr(void)" (??1MatExpr@cv@@QAE@XZ)
+Source.obj : error LNK2019: unresolved external symbol "public: static class cv::MatExpr __cdecl cv::Mat::ones(class cv::Size_<int>,int)" (?ones@Mat@cv@@SA?AVMatExpr@2@V?$Size_@H@2@H@Z) referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::Mat::Mat(class cv::Mat &&)" (??0Mat@cv@@QAE@$$QAV01@@Z) referenced in function "public: __thiscall cv::MatExpr::operator class cv::Mat(void)const " (??BMatExpr@cv@@QBE?AVMat@1@XZ)
+Source.obj : error LNK2019: unresolved external symbol "public: static struct cv::Ptr<class cv::Formatter> __cdecl cv::Formatter::get(enum cv::Formatter::FormatType)" (?get@Formatter@cv@@SA?AU?$Ptr@VFormatter@cv@@@2@W4FormatType@12@@Z) referenced in function "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl cv::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class cv::Mat const &)" (??6cv@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV12@ABVMat@0@@Z)
+C:\opencv\build\x64\vc15\lib\opencv_world454d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Matei\source\repos\ProiectPI\Debug\ProiectPI.exe : fatal error LNK1120: 5 unresolved externals
